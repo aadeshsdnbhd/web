@@ -1,0 +1,41 @@
+.about-section:hover {
+  color: white;
+}
+.about-icon {
+  display: flex !important;
+  justify-content: start !important;
+  align-items: center !important;
+  padding: 3px;
+}
+.about-icon > i {
+  font-size: 2rem;
+  padding: 3px;
+}
+
+. .services {
+  min-height: 250px;
+}
+.services > .text {
+  text-align: left !important;
+}
+
+/* Break point section */
+.break-sec {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#sec-head {
+  color: white !important;
+  font-size: 2rem !important;
+}
+@media only screen and (max-width: 720px) {
+  .break-sec {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
