@@ -8,11 +8,12 @@
   padding: 3px;
 }
 .about-icon > i {
+  min-height: 2rem;
   font-size: 2rem;
   padding: 3px;
 }
 
-. .services {
+.services {
   min-height: 250px;
 }
 .services > .text {
@@ -38,4 +39,20 @@
     justify-content: center;
     align-items: center;
   }
+}
+
+/* SERVICES */
+.service-card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  min-height: 300px;
+}
+.service-icon {
+  color: orange;
+  font-size: 2rem;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
 }
