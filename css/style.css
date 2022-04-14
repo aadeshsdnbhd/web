@@ -56,3 +56,49 @@
   display: flex;
   justify-content: center;
 }
+
+.other-services > .content {
+  border: 2px solid rgb(255, 167, 95);
+}
+.other-services > .content > .title {
+  color: darkslategrey;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* OUR CLIENTS */
+
+.client-item {
+  position: relative;
+  padding: 2px;
+  border: 2px solid rgb(228, 194, 167);
+}
+.client-card .card-text {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.client-card .card-text .cname {
+  font-weight: bold;
+  padding: 5px;
+}
+.client-card .card-text .other-info {
+  color: orange;
+  padding: 5px;
+}
+.client-icon {
+  position: absolute;
+  color: orangered;
+  font-size: 3rem;
+  top: -40px;
+  left: 40px;
+}
+.client-card .client-logo {
+  width: 250px;
+}
+.owl-carousel .owl-stage,
+.owl-carousel.owl-drag .owl-item {
+  -ms-touch-action: auto;
+  touch-action: auto;
+}
