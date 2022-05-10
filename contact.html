@@ -10,6 +10,13 @@
     />
     <link rel="stylesheet" href="./css/style2.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
     <title>CONTACT| AADESH SDN BHD</title>
   </head>
   <body>
@@ -31,7 +38,7 @@
                 </div>
                 <div class="text">
                   <span>Email</span>
-                  <span><a class="__cf_email__">abc@aadeshsh.com</a></span>
+                  <span><a class="">info@aadeshsb.com</a></span>
                 </div>
               </div>
               <div
@@ -44,7 +51,7 @@
                 </div>
                 <div class="text">
                   <span>Call</span>
-                  <span>Call Us: + 1235 2355 98</span>
+                  <span>Call Us: 006738813220</span>
                 </div>
               </div>
             </div>
@@ -111,7 +118,7 @@
             <h1 class="mb-2 bread">Contact Us</h1>
             <p class="breadcrumbs">
               <span class="mr-2"
-                ><a href="index-2.html"
+                ><a href="index.html"
                   >Home <i class="ion-ios-arrow-forward"></i></a
               ></span>
               <span>Contact <i class="ion-ios-arrow-forward"></i></span>
@@ -129,9 +136,11 @@
                 <div class="icon">
                   <span class="icon-map-o"></span>
                 </div>
-                <p>
-                  <span>Address:</span> 198 West 21th Street, Suite 721 New York
-                  NY 10016
+                <p class="text-left">
+                  <span>Address:</span> N0-16 <br />
+                  Simpang 286-30-123-3 <br />
+                  Sg Liang <br />
+                  KC-2935
                 </p>
               </div>
               <div class="col-md-4 text-center border-height py-4">
@@ -140,7 +149,7 @@
                 </div>
                 <p>
                   <span>Phone:</span>
-                  <a href="tel://1234567920">+ 1235 2355 98</a>
+                  <a href="tel:006738813220">006738813220</a>
                 </p>
               </div>
               <div class="col-md-4 text-center py-4">
@@ -149,13 +158,8 @@
                 </div>
                 <p>
                   <span>Email:</span>
-                  <a
-                    href="https://preview.colorlib.com/cdn-cgi/l/email-protection#452c2b232a053c2a3037362c31206b262a28"
-                    ><span
-                      class="__cf_email__"
-                      data-cfemail="abc2c5cdc4ebd2c4ded9d8c2dfce85c8c4c6"
-                      >[email&#160;protected]</span
-                    ></a
+                  <a href="mailto:info@aadeshsb.com"
+                    ><span class="">info@aadeshsb.com</span></a
                   >
                 </p>
               </div>
@@ -168,32 +172,64 @@
               If you got any questions <br />please do not hesitate to send us a
               message
             </h2>
-            <form action="#" class="bg-light p-5 contact-form">
+            <form
+              action="https://api.web3forms.com/submit"
+              method="POST"
+              class="bg-light p-5 contact-form"
+            >
+              <input
+                type="hidden"
+                name="access_key"
+                value="248bd59b-5d9c-4424-a975-71bf3ceb11ff"
+              />
+              <input
+                type="hidden"
+                name="redirect"
+                value="https://aadeshsb.com/contact.html"
+              />
               <div class="form-group">
                 <input
                   type="text"
+                  name="name"
                   class="form-control"
                   placeholder="Your Name"
+                  required
                 />
               </div>
               <div class="form-group">
                 <input
                   type="text"
+                  name="email"
                   class="form-control"
                   placeholder="Your Email"
+                  required
                 />
               </div>
               <div class="form-group">
-                <input type="text" class="form-control" placeholder="Subject" />
+                <input
+                  type="text"
+                  name="company"
+                  class="form-control"
+                  placeholder="Enter Company Name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <input
+                  type="hidden"
+                  name="subject"
+                  value="Someones trying to reach you"
+                />
               </div>
               <div class="form-group">
                 <textarea
-                  name=""
+                  name="message"
                   id=""
                   cols="30"
                   rows="7"
                   class="form-control"
                   placeholder="Message"
+                  required
                 ></textarea>
               </div>
               <div class="form-group">
@@ -216,7 +252,7 @@
         <div class="row justify-content-center">
           <div class="break-sec">
             <h2 class="mb-0 p-2" id="sec-head">
-              A BRUNENIAN REACH WIHTIN LOCAL INSIGHT
+              A BRUNENIAN REACH WITHIN LOCAL INSIGHT
             </h2>
             <div class="">
               <a href="#" class="btn btn-primary px-4 py-3 mt-3"
